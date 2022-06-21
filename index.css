@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+
+
+.big-con{
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.small-con{
+    height: 65vh;
+    width: 60vw;
+    background-color:hsl(0, 0%, 95%);
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.col{
+    padding: 30px 30px 30px 30px;
+}
+
+.col-one{
+    background-color:  hsl(31, 77%, 52%);
+     border-radius: 10px 0px 0px 10px;
+}
+
+.col-two{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.col-three{
+    border-radius: 0px 10px 10px 0px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+.col-img{
+    margin-bottom: 20px;
+}
+.col-h{
+    margin-bottom: 20px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: ;
+    font-weight: 400;
+    font-family: https://fonts.google.com/specimen/Lexend+Deca;
+}
+
+.col-pa{
+    margin-bottom: 50px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 700;
+    font-family: https://fonts.google.com/specimen/Big+Shoulders+Display;
+}
+
+.col-but{
+    cursor: pointer;
+
+    border-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    height: 30px;
+    width: 8vw;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.col-one>button{
+    color:hsl(31, 77%, 52%) ;
+}
+.col-two>button{
+    color:hsl(184, 100%, 22%) ;
+}
+.col-three>button{
+    color:hsl(179, 100%, 13%) ;
+}
